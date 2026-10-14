@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fotbalové portfolio Ondřeje, studenta a začínajícího webového vývojáře.">
+  <meta name="theme-color" content="#101810">
+  <title>Ondřej — fotbal &amp; web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#uvod" aria-label="Ondřej — úvod">o<span>.</span></a>
+    <nav aria-label="Hlavní navigace">
+      <a href="#o-mne">O mně</a>
+      <a href="#projekty">Projekty</a>
+      <a class="nav-contact" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="uvod">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Student · fotbalový nadšenec · vývojář</p>
+        <h1>Ahoj, jsem<br><span>Ondřej.</span></h1>
+        <p class="intro">Fotbal je moje vášeň a celý život, weby můj kreativní prostor. Jsem student a začínající vývojář — baví mě spojovat svět fotbalu s moderním webovým designem.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projekty">Prohlédnout projekty <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#kontakt">Ozvi se mi <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-circle"></div>
+        <div class="code-card">
+          <div class="code-dots"><i></i><i></i><i></i></div>
+          <div class="pitch">
+            <span class="pitch-line pitch-center"></span>
+            <span class="pitch-circle"></span>
+            <span class="pitch-box pitch-box-top"></span>
+            <span class="pitch-box pitch-box-bottom"></span>
+            <span class="pitch-ball">⚽</span>
+          </div>
+        </div>
+        <div class="art-tag">90 minut. Plno nápadů. <span>⚽</span></div>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="o-mne">
+      <div class="section-heading">
+        <p class="eyebrow">01 / O mně</p>
+        <h2>Na hřišti i na webu<br>rozhoduje <span>dobrý tým.</span></h2>
+      </div>
+      <div class="about-content">
+        <p>Jsem student, kterého baví fotbal a sám ho taky hraje. Rád sleduji zápasy i dění kolem hry a inspiraci z fotbalu přenáším do svých webových nápadů.</p>
+        <p>Stejně jako na hřišti věřím v dobrý plán, kreativitu a týmovou spolupráci a komunikaci. Učím se nové technologie a hledám příležitosti, jak své dovednosti dál rozvíjet.</p>
+        <div class="skills" aria-label="Technologie a dovednosti">
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projekty">
+      <div class="projects-heading">
+        <div>
+          <p class="eyebrow">02 / Vybrané práce</p>
+          <h2>Moje projekty<span>.</span></h2>
+        </div>
+        <p>Webové nápady inspirované<br> tou nejkrásnější hrou.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-lime">
+          <div class="project-top"><span>01</span><span aria-hidden="true">↗</span></div>
+          <div class="project-visual visual-notes" aria-hidden="true">
+            <div class="scoreboard"><span class="score-label">ZÁPAS DNE</span><div class="score-teams"><b>DOMA</b><strong>2 <i>:</i> 1</strong><b>HOSTÉ</b></div><span class="score-live"><i></i> KONEC ZÁPASU</span></div>
+          </div>
+          <div class="project-info">
+            <div><h3>Výsledková tabule</h3><p>Přehledný výsledek zápasu živě i z těch nejnižších lig !.</p></div>
+            <span class="project-type"></span>
+          </div>
+        </article>
+        <article class="project-card project-dark">
+          <div class="project-top"><span>02</span><span aria-hidden="true">↗</span></div>
+          <div class="project-visual visual-page" aria-hidden="true">
+            <div class="match-card"><span class="match-kicker">LIGA · 24. KOLO</span><div class="match-row"><b><i class="team-badge badge-green">1</i> Kyle</b><span>58 b.</span></div><div class="match-row"><b><i class="team-badge badge-yellow">14</i> Chvalky</b><span>34 b.</span></div><div class="match-footer">AKTUÁLNÍ DĚNÍ V SOUTĚŽI <span>↗</span></div></div>
+          </div>
+          <div class="project-info">
+            <div><h3>Fotbalový přehled</h3><p>Sekundový přehled zápasů, za jak dlouho týmy začnou a co se zrovna děje(změna pozice v tabulce, který tým je u míče atd..).</p></div>
+            <span class="project-type"></span>
+          </div>
+        </article>
+      </div>
+      <p class="project-note">Fotbalové koncepty — tvořím a zdokonaluji je postupně. ⚽</p>
+    </section>
+
+    <section class="contact section-wrap" id="kontakt">
+      <p class="eyebrow">03 / Kontakt</p>
+      <div class="contact-content">
+        <div>
+          <h2>Máš fotbalový nápad?<br><span>Pojďme ho rozjet.</span></h2>
+          <p class="contact-hint">Napiš mi. Formulář zkontroluje, jestli nic nechybí.</p>
+          <p class="contact-hint">Před použitím nahraď ahoj@example.com svou e-mailovou adresou.</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="name">Tvoje jméno</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Jan Novák" required minlength="2">
+
+          <label for="email">Tvůj e-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="jan@email.cz" required>
+
+          <label for="message">Zpráva</label>
+          <textarea id="message" name="message" rows="3" placeholder="Co máš na mysli?" required minlength="10"></textarea>
+
+          <button class="button button-light" type="submit">Připravit zprávu <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" aria-live="polite">Kontrola: jméno, platný e-mail a zpráva alespoň 10 znaků.</p>
+        </form>
+      </div>
+      <div class="contact-bottom">
+        <span>Jsem otevřený novým příležitostem.</span>
+        <a href="#uvod">Zpět nahoru ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <section class="original-brief section-wrap" aria-label="Původní zadání">
+    <details>
+      <summary>Otevřít moje původní zadání <span aria-hidden="true">＋</span></summary>
+      <div class="brief-quotes">
+        <blockquote>„vytvor mi portfolio page web developera, at je maximalne jednoduchy, jsem student, chci soubor index.html a styly do souboru style.css barevne at je to ladeno do zeleno zlute a styl moderni, stranka at je prizpusobena pro mobilni telefony“</blockquote>
+        <blockquote>„pouprav mi stranku at je spojena s fotbalem a celkove takovou tematikou“</blockquote>
+      </div>
+    </details>
+  </section>
+
+  <footer class="site-footer">
+    <a class="logo" href="#uvod">o<span>.</span></a>
+    <p>Vytvořeno s láskou k fotbalu <span>© 2026</span></p>
+    <a class="validator-link" href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer" aria-label="Otevřít HTML validátor W3C v nové kartě" title="Ověřit HTML pomocí validátoru W3C">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+        <path d="M12 2.5 20 5.7v5.8c0 5-3.4 8.3-8 10-4.6-1.7-8-5-8-10V5.7l8-3.2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+        <path d="m8.4 11.9 2.3 2.3 4.9-5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>HTML validátor</span>
+    </a>
+  </footer>
+  <script>
+    const contactForm = document.querySelector("#contact-form");
+    const formStatus = document.querySelector("#form-status");
+    const nameField = contactForm.querySelector("#name");
+    const messageField = contactForm.querySelector("#message");
+
+    contactForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      nameField.setCustomValidity(
+        nameField.value.trim().length >= 2 ? "" : "Zadej jméno alespoň o 2 znacích."
+      );
+      messageField.setCustomValidity(
+        messageField.value.trim().length >= 10 ? "" : "Napiš zprávu alespoň o 10 znacích."
+      );
+
+      if (!contactForm.reportValidity()) {
+        return;
+      }
+
+      const formData = new FormData(contactForm);
+      const name = formData.get("name").trim();
+      const email = formData.get("email").trim();
+      const message = formData.get("message").trim();
+      const subject = encodeURIComponent(`Zpráva z portfolia od ${name}`);
+      const body = encodeURIComponent(`${message}\n\nKontakt: ${email}`);
+
+      formStatus.textContent = "Zpráva je připravená. Otevírám tvůj e-mailový program…";
+      window.location.href = `mailto:ahoj@example.com?subject=${subject}&body=${body}`;
+    });
+
+    nameField.addEventListener("input", () => nameField.setCustomValidity(""));
+    messageField.addEventListener("input", () => messageField.setCustomValidity(""));
+  </script>
+</body>
+</html>
